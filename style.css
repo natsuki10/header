@@ -1,0 +1,188 @@
+@charset "UTF-8";
+html{
+    font-size:100%; 
+}
+img{
+    max-width:100%; 
+    max-height: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+/* header */
+header  {
+    width: 100vw;
+    height: 799px;
+}
+.headerBg {
+    height: 100vh;
+    background-image: url(images/グループ\ 150.png),
+    url(images/グループ\ 127.png),url(images/背景.png);
+    background-position: right 12.5% top 17%,left 40% top,center;
+    background-size: 6.134375rem ,28.854375rem ,cover;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+}
+/* nav */
+.headerContents {
+    position: relative;
+    top: 57px;
+    left: 13%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 60.90625rem;
+    height: 4.8125rem;
+}
+.logo {
+    padding-left: 37px;
+}
+.headerNavLists {
+    align-items: center;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+ul,li {
+    list-style: none;
+}
+.navItem a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+.navItemContact {
+    padding-right: 44.5px;
+}
+.navItem a::after {
+    display: block;
+    color: #000;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+}
+.navItemAbout a::after {
+    content: "企業情報";
+}
+.navItemNews a::after {
+    content: "ニュース";
+}
+.navItemService a::after {
+    content: "サービス&製品情報";
+}
+.navItemContact a::after {
+    content: "お問い合わせ";
+}
+.headerNavlists {
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+.navItemService {
+    white-space: nowrap
+}
+.headerNavlists li+li::before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 50%;
+    height: 14px;
+    margin-top: -7px;
+    border-right: 1px solid #585858;
+}
+.headerNavlists a {
+    padding:5px 54.5px;
+}
+/* images */
+.redSquareL{
+    position: absolute;
+    left: 46.27%;
+    right: 48.05%;
+    top: 203.62px;
+    width: 4.545rem;
+    height: 4.6925rem;
+}
+.redSquareM {
+    position: absolute;
+    left: 52.53%;
+    right: 43.83%;
+    top: 264.29px;
+    width: 2.91625rem;
+    height: 3.324375rem;
+}
+.redSquareS { 
+    position: absolute;
+    left: 58.06%;
+    right: 40.14%;
+    top: 253.18px;
+    width: 1.434375rem;
+    height: 1.859375rem;
+}
+.redSquares {
+    position: absolute;
+    left: 40.08%;
+    right: 14.27%;
+    top: 220.31px;
+    width: 36.521875rem;
+    height: 28.89375rem;
+}
+.yellowSquare {
+    position: absolute;
+    left: 75.97%;
+    right: 15.24%;
+    top: 597.75px;
+    width: 5.16125rem;
+    height: 5.33rem;
+} 
+.graySquare {
+    position: absolute;
+    left: 16.96%;
+    right: 76.9%;
+    top: 602.43px;
+    width: 4.9075rem;
+    height: 5.0675rem;
+}
+.scroll {
+    position: absolute;
+    left: 47.42%;
+    right: 48.91%;
+    top: 749px;
+    width: 2.9375rem;
+    height: 5.168125rem;
+} 
+  /*title*/
+.titleTexth2 {
+    position: relative;
+    left: 140px;
+    padding-top: 80px;
+    left: 10.94%;
+    width: 21.3125rem;
+    height: 16.3125rem;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.75rem;
+    line-height: 5.461875rem;
+    color: #D4004E;
+}
+.titleTextp {
+    position: relative;
+    left: 15.39%;
+    width: 8rem;
+    height: 3rem;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #D4004E;
+}
