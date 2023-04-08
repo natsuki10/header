@@ -1,0 +1,152 @@
+@charset "UTF-8";
+html{
+    font-size:100%; 
+}
+img{
+    max-width:100%; 
+    max-height: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+.gentle-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1ch;
+  }
+/* header */
+header  {
+    position: relative;
+    background-color: #f2f3f7;
+    width: 100vw;
+    height: 100%;
+}
+.header-bg {
+    position: relative;
+    overflow: hidden;
+    background-image:
+   url(images/background-images.png);
+    background-position:top center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    height: auto;
+    min-height: 750px;
+}
+/* nav */
+.header-contents {
+    position: relative;
+    top: 57px;
+    left: 13%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 60.90625rem;
+    height: 4.8125rem;
+}
+.logo {
+    padding-left: 37px;
+}
+.header-navlists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+ul,li {
+    list-style: none;
+}
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-item-contact {
+    padding-right: 44.5px;
+}
+.nav-item a::after {
+    display: block;
+    color: #000;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+}
+.nav-item-about a::after {
+    content: "企業情報";
+}
+.nav-item-news a::after {
+    content: "ニュース";
+}
+.nav-item-service a::after {
+    content: "サービス&製品情報";
+}
+.nav-item-service {
+    white-space: nowrap
+}
+.nav-item-contact a::after {
+    content: "お問い合わせ";
+}
+.headerNavlists {
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+.header-navlists li+li::before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 50%;
+    height: 14px;
+    margin-top: -7px;
+    border-right: 1px solid #585858;
+}
+.header-navlists a {
+    padding:5px 54.5px;
+}
+/* images */
+.scroll {
+    position: absolute;
+    top: 93%;
+    width: 2.9375rem;
+    height: 5.168125rem;
+} 
+  /*title*/
+.title-text2 {
+    position: relative;
+    left: 140px;
+    padding-top: 80px;
+    left: 10.94%;
+    width: 21.3125rem;
+    height: 16.3125rem;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.75rem;
+    line-height: 5.461875rem;
+    color: #D4004E;
+}
+.title-textp {
+    position: relative;
+    left: 15.39%;
+    width: 8rem;
+    height: 3rem;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #D4004E;
+}
