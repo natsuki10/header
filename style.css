@@ -138,4 +138,309 @@ ul,li {
     width: 2.9375rem;
     height: 5.168125rem;
 } 
- 
+/*main*/
+main {
+    margin: 0 auto;
+    width: 975px;
+}
+/* about */
+.about {
+    margin-top: 102.12px;
+}
+.about-text {
+    background-color: #F2F3F7;
+    width: 953.95px;
+    height: 282.5px;
+    margin: auto;
+}
+.about-text p {
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 35px;
+    color: #333333;
+    padding: 69px 56.95px 26.5px 66px;
+    margin-top: -30px;
+}
+.about-buttton {
+    display: block;
+    margin: -15px auto 115.72px auto;
+    width: 157.12px;
+    height: 35.8px;
+    background-color: #D4004E;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+/* service&product */
+.service-item-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72.38px;
+}
+.service-item-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.service-item-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.service-item-4 {
+    display: flex;
+    justify-content: space-between;
+}
+.service-logo-image {
+    width:489px;
+    height:263px;
+}
+.service-text-1 {
+    width:489px;
+    height:263px;
+    padding-left: 95.5px;
+}
+.service-text-2 {
+    width:489px;
+    height:263px;
+    padding-right:95.5px;
+}
+h3 {
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D4004E;
+}
+.explanation {
+    margin-top: 38px;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+}
+button {
+    display: block;
+    margin: 54.6px auto;
+    width: 157.12px;
+    height: 35.8px;
+    background-color: #D4004E;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+.main-contents-title {
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 62px;
+    color: #333;
+    margin-bottom: 0;
+}
+.main-contents-title::before {
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 60.4px;
+    background-image: url(images/グループ\ 145.png);
+    background-size: contain;
+    margin-right: 23.95px;
+}
+/* news */
+.news {
+    margin-top: 78.5px;
+}
+.news-list {
+    list-style: none outside;
+    margin-top: -30px;
+}
+.news-item {
+    text-decoration: none;
+    background-color: #f2f3f7;
+    width: 954px;
+    height: 86px;
+    margin-bottom: 12px;
+}
+.news-item a {
+    box-sizing: border-box;
+    width: 954px;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 20.5px;
+    padding-right: 36.04px;
+}
+.category1 {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #E5A31C;
+    border: 1px solid #E5A31C;
+    padding: 3.5px 6.5px 3.5px 9.5px;
+    margin-top: 33.5px;
+}
+.category2 {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #D4004E;
+    border: 1px solid #D4004E;
+    padding: 3.5px 59.5px;
+    margin-top: 33.5px;
+}
+.category3 {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5FA153;
+    border: 1px solid #5FA153;
+    padding: 3.5px 25.5px;
+    margin-top: 33.5px;
+}
+.category4 {
+    font-family: 'Hiragino Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #50BBF4;
+    border: 1px solid #50BBF4;
+    padding: 3.5px 42.5px;
+    margin-top: 33.5px;
+}
+.date {
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    color: #333;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    margin-top: 36px;
+    position: relative;
+    display: inline-block;
+}
+.date::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: 140%;
+    top: 20%;
+    background-color: #777;
+    width: 0.85px;
+    height: 0.875rem;
+    top: 10%;
+}
+.news-title {
+    position: relative;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+    margin-top: 36px;
+}
+.news-title::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border: 0;
+    border-top: solid 2px #707070;
+    border-right: solid 2px #707070;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: rotate(45deg);
+    display: block;
+}
+.news-button {
+    width: 157.12px;
+    height: 35.8px;
+    background-color: #D4004E;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0;
+    border: none;
+    display: block;
+    margin:48.6px auto 98.6px auto;
+    text-align: center;
+}
+/* footer */
+footer {
+    background-color: #333;
+    width: 100%;
+    height: 261px;
+    text-align: center;
+}
+.footer-item {
+    margin: 0 auto;
+}
+.footer-list {
+    margin: 0 auto;
+    padding-top: 65px;
+    width: 438px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list a {
+    text-align: center;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.footer-list li +li {
+    border-left: 1.93px solid #FFFFFF;
+    padding-left: 33.5px;
+}
+.copyright {
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+.footer-button {
+    margin: 55px auto 51px auto;
+    width: 157.12px;
+    height: 35.8px;
+    background-color: #FFFFFF;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #333333;
+    padding: 0;
+    border: none;
+    text-align: center;
+} 
